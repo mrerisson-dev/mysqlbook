@@ -97,7 +97,7 @@ mysql>	alter table comprodu
 			add index comprodu_conforne_idx (n_numeforne asc);
 
 mysql>	alter table comvenda 
-			add index comvenda_comclien (n_numeclien asc);
+			add index comvenda_comclien_idx (n_numeclien asc);
 
 mysql>  alter table comvenda 
 			add index comvenda_comforne_idx (n_numeforne asc);
